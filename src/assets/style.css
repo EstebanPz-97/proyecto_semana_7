@@ -639,3 +639,33 @@ footer {
     height: 250px;
     object-fit: cover;
 }
+
+.carousel-item__details {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.2) 100%);
+    font-size: 10px;
+    opacity: 1;
+    transition: 450ms opacity;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+/*Estilo de resultado de busqueda*/
+
+.busqueda{
+    width: 90vw;
+    height: 24px;
+    display: flex;
+    color: #652ec5;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+.busqueda span{
+    font-weight: 700;
+    padding-top: 10px;
+    margin-right: 10px;
+}
